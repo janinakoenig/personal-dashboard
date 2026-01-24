@@ -1,8 +1,47 @@
 .sidebar {
     position: fixed;
-    width: 200px;
+    width: 300px;
     height: 600vh;
     left:0;
     top: 0;
     background-color: pink;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.profilepicture {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: left;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.menuButton {
+    margin: 5px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.menuButton:hover {
+    background: (255, 255, 255, 0.1);
+    border-color: rgb(10, 127, 104);
 }
